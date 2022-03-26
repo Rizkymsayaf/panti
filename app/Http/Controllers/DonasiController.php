@@ -18,7 +18,7 @@ class DonasiController extends Controller
     public function index()
     {
         $donasi = Donasi::all();
-        return view('dashboard.donasi.index', ['donasi' => $donasi]);
+         return view('dashboard.donasi.index', ['donasi' => $donasi]);
 
     }
 
