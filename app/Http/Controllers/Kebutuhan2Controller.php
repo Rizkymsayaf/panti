@@ -19,6 +19,6 @@ class Kebutuhan2Controller extends Controller
      */
     public function index()
     { $donasi = Donasi::all();
-        return view('dashboard.kebutuhan.index', ['donasi' => $donasi, 'kebutuhan' => Kebutuhan::all()    ]);
+    return view('dashboard.kebutuhan.index', ['donasi' => $donasi, 'kebutuhan' => Kebutuhan::all()    ]);
     }
 }
